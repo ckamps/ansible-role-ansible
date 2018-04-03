@@ -1,0 +1,6 @@
+---
+
+- name: Install pexpect to Support Ansible expect Module
+  pip:
+    name: pexpect
+    state: present
